@@ -1,0 +1,267 @@
+:root {
+
+    --cor-primaria: #001C30;
+    --cor-secundaria: #176B87;
+    --cor-terciaria:#64CCC5;
+    --cor-hover: #DAFFFB;
+    
+    }
+    
+    
+    
+    *{
+    
+        margin:0 ; 
+        padding: 0 ;
+        
+        }
+        body{
+            height: 100vh;
+            box-sizing: border-box;
+            background-color: black;
+            color:var(--cor-secundaria);
+        }
+    
+    
+    
+        .cabecalho{
+    
+         padding: 2% 0% 0% 15%;
+    
+        }
+    
+        .cabecalho__menu{
+    
+    display: flex;
+    gap: 80px;
+    
+        }
+    
+        .cabecalho_menu_link{
+    
+            text-align: center;
+            color:var(--cor-terciaria);
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-decoration: none;
+    
+    
+    
+    
+        }
+    
+    
+        .cabecalho_menu_link2{
+    
+            text-align: center;
+            color: var(--cor-terciaria);
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-decoration: none;
+    
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        .titulo-destaque {
+        
+        color: var(--cor-terciaria);
+        }
+        
+        .apresentacao {
+        
+        
+            justify-content: space-between;
+        padding : 5% 15%;
+        display : flex; / funcao para colocar figura para um lado e escrita do outro 
+        align-items ::after center
+        justify-content: space-between;
+        gap: 82px;
+        }
+        
+        .apresentacao__conteudo{
+        
+        
+            width: 615px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        
+        }
+        
+        .apresentacao_conteudo_titulo{
+        
+        
+        
+            font-size : 2.00rem;
+        
+        }
+        
+        .apresentacao_conteudo_texto{
+        
+        
+        
+            font-size: 1.5rem;
+        }
+    
+    
+    
+        .apresentacao_link_subtitulo {
+    
+    color: chartreuse;
+    font-size: 1.5rem;
+    
+    
+    
+        }
+        .apresentacao__link {
+        
+            display:flex;
+        
+            justify-content: center;
+        
+            flex-direction: column;
+        
+            align-items:center;
+        
+            gap:15px;
+        
+        
+        
+        }
+        
+        .apresentacao_link_botao {
+            gap: 5px;
+        justify-content: center;
+        display:flex;
+        border: 2px solid var(--cor-terciaria);
+        width: 100px;
+        text-align: left;
+        border-radius: 8px;
+        font-size: 1.25rem;
+        padding : 8px;
+        color :var(--cor-secundaria);
+        }
+    
+    .apresentacao_link_botao:hover {
+    
+    background-color:var(--cor-hover);
+    
+    
+    }    
+        .apresentacao_link_botao2 {
+            gap: 5px;
+            justify-content: center;
+            display:flex;
+        
+            border: 2px solid  var(--cor-terciaria);
+         
+        width: 100px;
+        text-align:center;
+        border-radius: 8px;
+        font-size: 1.25rem;
+        padding : 8px;
+        
+        color :var(--cor-secundaria); 
+        }
+    
+        .apresentacao_link_botao2:hover {
+    
+    
+        background-color:var(--cor-hover);
+    
+    
+        }
+    
+    
+        .apresentacao__imagem {
+    
+         width: 50%;
+        
+    
+        }
+    
+        .rodape {
+         padding: 20px;
+        color:var(--cor-primaria);
+        background-color: var(--cor-terciaria);
+        text-align: center;
+        font-family:'Montserrat' , sans-serif ;
+        font-size: 1.5rem;
+    
+        }
+    
+        .letras {
+    
+            font-size: 24px;
+        }
+    
+        .letras2 {
+    
+          font-size: 1.5rem;
+    
+        }
+    
+        @media (max-width: 1200 )  {
+    
+             .cabecalho {
+                
+             padding: 10%;
+    
+    
+             }
+    
+             .cabecalho__menu  {
+    
+             justify-content: center;
+    
+             }
+    
+    
+            .apresentacao  {
+    
+    
+                flex-direction: column-reverse;
+            }
+    
+             .foto_programacao {
+
+               
+
+
+             }
+
+
+             @media (max-width: 1200px) {
+
+                .cabecalho {
+
+                    padding: 6%;
+                }
+
+               .apresentacao {
+
+                flex-direction: column;
+
+               }
+
+        
+             }
+    
+    
+    
+       
